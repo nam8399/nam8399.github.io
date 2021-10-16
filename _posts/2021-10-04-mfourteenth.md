@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "모바일앱 개발일기 #15 Java 정규표현식"
+title:  "Java 일기 #1 Java 정규표현식"
 
 ---
 
