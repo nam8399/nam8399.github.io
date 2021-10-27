@@ -14,7 +14,6 @@ title:  "모바일앱 개발일기 #12 Firebase 데이터 가져오기"
 
 먼저 한개의 데이터만을 가져올 때이다.
 
-Timer는 별도의 Thread로 처리되므로 상속받는 Class를 만들어서 처리해야 한다고 한다.
 
 ```java
 databaseReference.child("feed_data").child("status").addValueEventListener(new ValueEventListener() {
