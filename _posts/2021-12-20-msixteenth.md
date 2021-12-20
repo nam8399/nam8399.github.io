@@ -22,7 +22,7 @@ title:  "모바일앱 개발일기 #16 Content Provider"
 
 
 
-![image-20211220154857645](C:\Users\slond\AppData\Roaming\Typora\typora-user-images\image-20211220154857645.png)
+![image](https://user-images.githubusercontent.com/69960282/146735364-aea707e8-60d8-457d-b822-fdbe826e214f.png)
 
 먼저 A라는 앱과 B라는 앱이 있다고 가정하자.
 
@@ -40,7 +40,7 @@ B라는 앱은 파일 데이터, 데이터베이스, Preference 등 여러 가�
 
 하지만 콘텐츠 프로바이더를 이용하면 접근이 가능하다.
 
-<br/><br/>![image-20211220155408328](C:\Users\slond\AppData\Roaming\Typora\typora-user-images\image-20211220155408328.png)
+<br/><br/>![image](https://user-images.githubusercontent.com/69960282/146735314-1af0fcd9-7c0d-4c56-a16e-86cc58d98f47.png)
 
 A앱에서 B앱의 데이터를 이용하려면 우선 데이터를 가지고 있는 B앱의 개발자가 콘텐츠 프로바이더를 만들어 주어야 한다. 
 
@@ -151,7 +151,7 @@ content:// com.example.test.Provider
 
 URL의 프로토콜명은 content를 이용하며 host부분이 이용하고자 하는 콘텐츠 프로바이더의 식별자가 된다.
 
-![image-20211220164045628](C:\Users\slond\AppData\Roaming\Typora\typora-user-images\image-20211220164045628.png)
+![image](https://user-images.githubusercontent.com/69960282/146735405-45921164-c113-46c1-9384-2bcb90839faa.png)
 
 그리고 con.example.test.Provider 문자열은 콘텐츠 프로바이더가 Manifest에 등록될때 <provider>태그의 authorities 속성값이다.
 
