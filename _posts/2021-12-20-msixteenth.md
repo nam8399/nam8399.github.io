@@ -62,7 +62,7 @@ A앱에서 B앱의 데이터를 이용하려면 우선 데이터를 가지고 �
 
 콘텐츠 프로바이더를 작성하는 방법은 안드로이드 DBMS 프로그램과 유사하다.
 
-콘텐츠 프로바이더 내부에서 접근하는 데이터는 파일, 데이터베이스, Preference 혹은 메리의 데이터일수도 있다.
+콘텐츠 프로바이더 내부에서 접근하는 데이터는 파일, 데이터베이스, Preference 혹은 메모리의 데이터일수도 있다.
 
 ```java
 public class MyContentProvider extends ContentProvider {
