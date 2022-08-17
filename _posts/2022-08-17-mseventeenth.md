@@ -11,7 +11,6 @@ categories: Android
 일단 MVP 디자인패턴과 유사해 보이는 MVC에 대해서 간단하게 알아보자.
 
 <br/><br/>
-<img src="https://img.shields.io/badge/Javascript-ffb13b?style=flat-square&logo=javascript&logoColor=white"/></a>&nbsp
 ### MVC
 
 ---
