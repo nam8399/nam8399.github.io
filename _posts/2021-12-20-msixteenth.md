@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "모바일앱 개발일기 #16 Content Provider"
-categories: 모바일앱개발일기
+categories: Android
 ---
 
 오늘은 콘텐츠 프로바이더(Content Provider)에 대해서 알아보도록 할 것이다.
