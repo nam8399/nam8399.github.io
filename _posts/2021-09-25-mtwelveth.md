@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "모바일앱 개발일기 #12 Firebase 데이터 가져오기"
-categories: 모바일앱개발일기
+categories: Android
 ---
 
 오늘은 파이어베이스에 저장된 데이터를 불러오는 작업을 해보겠다.
