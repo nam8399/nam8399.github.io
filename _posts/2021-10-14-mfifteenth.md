@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "모바일앱 개발일기 #15 Fragment에서 현재 위치(위도, 경도) 가져오기"
-categories: 모바일앱개발일기
+categories: Android
 ---
 
 모바일앱에 현재 위치 날씨 정보 기능을 구현하던 중 메인 Fragment에서 현재 위치(위도, 경도)를 가져와야 할 일이 생겼다.
