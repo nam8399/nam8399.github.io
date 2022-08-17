@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Monthly"
+    url: /month-archive/
   - title: "Junsik's Github"
     url: https://github.com/nam8399
   # - title: "About"
