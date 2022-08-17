@@ -1,7 +1,7 @@
 ---
 title: "모바일앱 개발일기"
 layout: categories
-permalink: /categories/mobile/모바일앱개발일기
+permalink: /categories/mobile/
 author_profile: true
 sidebar_main: true
 ---
