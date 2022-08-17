@@ -107,6 +107,9 @@ author:
   location         : "Dongtan, Hwaseong"
   email            :
   links:
+    - label: "개발 앱 - HandRecipe"
+      icon: "fas fa-fw fa-link"
+      url: "https://play.google.com/store/apps/details?id=recipeinhand.com.sidemenu.sample"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
