@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "모바일앱 개발일기 #17 디자인패턴 MVC와 MVP의 차이, MVP 패턴이란?"
-categories: 모바일앱개발일기
+categories: Android
 ---
 
 오랜만에 회사에서 글을 써본다.
