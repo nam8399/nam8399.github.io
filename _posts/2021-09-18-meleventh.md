@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "모바일앱 개발일기 #11 CountDownTimer 사용해서 버튼 활성화하기"
-categories: 모바일앱개발일기
+categories: Android
 ---
 
 요즘 여러가지 바쁜 일들이 있어서 포스팅을 못올렸다. 
