@@ -28,7 +28,7 @@ View : 유저에게 보여주는 화면
 Controller : 사용자의 요청을 인식하여 Model에서 요청에 맞는 데이터를 가져오고  View에 적용
 <br/><br/>
 
-#### 안드로이드에서의 MVC
+##### 안드로이드에서의 MVC
 
 안드로이드에서 MVC를 매칭시켜보면
 
@@ -56,14 +56,9 @@ MVC의 MV는 같지만 Controller대신 Presenter가 들어간 것이 MVP패턴�
 
 Presenter : Contrller와 역할이 비슷하지만 Interface를 사용한다는 것의 차이가 있다. View에서 전달된 이벤트에 따라 Model에서 데이터 요청후 전달하는 중간 역할 담당.
 
-#### MVC와 MVP 차이
+##### MVC와 MVP 차이
 
-<br/><br/>![image](https://user-images.githubusercontent.com/69960282/146735314-1af0fcd9-7c0d-4c56-a16e-86cc58d98f47.png)
 
-사진출처 : http://blog.dramancompany.com/2016/08/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%97%90-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%8F%84%EC%9E%85%ED%95%98%EA%B8%B0/
-
-위는 MVC와 MVP에 대한 구조도 그림이다. 
- 
 둘의 차이를 보면 MV까지는 똑같고 C와 P만 다른 것을 볼 수 있는데
 
 MVC 패턴에서는 모델이 View 와 바로 연결될 수 있는 것에 비해 MVP 패턴에서는 무조건 Presenter를 이용해서 연결해야 하는 것을 볼 수 있다.
@@ -83,7 +78,7 @@ MVP구조의 장점은 그림에서 MVC구조와 비교하면 알 수 있듯이 
 
 ---
 
-#### Presenter
+##### Presenter
 
 
 ```java
@@ -125,7 +120,7 @@ public class MainPresenter implements Contract.Presenter {
 }
 ```
 <br/><br/>
-#### View
+##### View
 
 ```java
 //MainActivity class
@@ -180,7 +175,7 @@ public class MainActivity extends AppCompatActivity implements Contract.View {
 ```
 
 <br/><br/>
-#### Model
+##### Model
 
 ```java
 //MainModel class
