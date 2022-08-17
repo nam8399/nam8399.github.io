@@ -57,6 +57,7 @@ MVC의 MV는 같지만 Controller대신 Presenter가 들어간 것이 MVP패턴�
 Presenter : Contrller와 역할이 비슷하지만 Interface를 사용한다는 것의 차이가 있다. View에서 전달된 이벤트에 따라 Model에서 데이터 요청후 전달하는 중간 역할 담당.
 
 ##### MVC와 MVP 차이
+<img src="![Uploading image.png…]()" width="100">
 
 
 둘의 차이를 보면 MV까지는 똑같고 C와 P만 다른 것을 볼 수 있는데
