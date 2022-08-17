@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Java 일기 #1 Java 정규표현식"
-categories: Java일기
+categories: Java
 ---
 
 오늘 코딩테스트 연습을 하다가 입력된 값에서 원하는 값만 추출하는 기능을 사용해야 할 일이 있었다.
