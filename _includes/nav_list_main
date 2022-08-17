@@ -19,7 +19,7 @@
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
                     {% if category[0] == "모바일앱개발일기" %}
-                        <li><a href="/categories/모바일앱개발일기" class="">모바일앱 개발일기 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/mobile" class="">모바일앱 개발일기 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
