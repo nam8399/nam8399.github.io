@@ -51,7 +51,9 @@ categories: Android
 
 그렇다면 앞서 말한 기존 명령형 UI 제작 방식이라는게 도대체 뭘까?
 
-기존에는 view와 데이터 사이에 중간 계층이 하나 끼어들어야만 하는 형태였다. **(Data -> Extra Layer(ex : findViewById) -> XML Layout)**
+기존에는 view와 데이터 사이에 중간 계층이 하나 끼어들어야만 하는 형태였다. 
+
+**(Data -> Extra Layer(ex : findViewById) -> XML Layout)**
 
 UI를 그리기 위해 XML을 사용하고 있음에도 불구하고, 코틀린 역시 UI에 어떤 id 값이 있고, 어떤 UI를 포함하려 하는지를 알고 있어야 하기 때문에 둘은 강하게 의존하게 된다.
 
@@ -75,7 +77,9 @@ code로 Fragment를 조작하는 일은 매우 귀찮은 작업일 뿐만 아니
 
 ##### XML을 버린 Jetpack Compose 방식
 
-기존 명령형 방식과 다르게 Jetpack Compose 방식을 설명하면 오른쪽과 같다. **(Data -> Jetpack Compose)**
+기존 명령형 방식과 다르게 Jetpack Compose 방식을 설명하면 오른쪽과 같다. 
+
+**(Data -> Jetpack Compose)**
 
 위 설명처럼 선언형 UI toolkit인 Jetpack Compose(only kotlin)로 구현할 경우 나타나는 패턴이다. 
 
