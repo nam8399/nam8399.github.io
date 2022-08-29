@@ -24,7 +24,7 @@ description              : "An amazing website."
 url                      : "https://nam8399.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/photo_daecheon.jpg"
+teaser                   : ![]({{ site.url }}{{ site.baseurl }}/assets/images/photo_daecheon.jpg    )
 logo                     : "/assets/favicon_ico/favicon-32x32.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
