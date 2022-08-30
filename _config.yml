@@ -30,9 +30,9 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
+  provider               : "disqus"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            :"nam8399-github-io"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -93,16 +93,16 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag"
   google:
-    tracking_id          :
+    tracking_id          : "G-LQQ7ZXFDW2"
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
   name             : "Nam Junsik"
-  avatar           : "/assets/favicon_ico/favicon-32x32.png"
+  avatar           : "/assets/images/photo_daecheon.jpg"
   bio              : "안녕하세요! 사람들에게 도움이 되는 앱을 만들고자 끊임없이 성장하는 1년차 안드로이드 개발자입니다."
   location         : "Songpa-gu, Seoul"
   email            :
@@ -287,7 +287,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      comments: # true
+      comments: true
       share: true
       related: true
       sidebar_main: true
