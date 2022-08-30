@@ -24,15 +24,15 @@ description              : "An amazing website."
 url                      : "https://nam8399.github.io"
 baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : ![]({{ site.url }}{{ site.baseurl }}/assets/images/photo_daecheon.jpg    )
+teaser                   : "/assets/images/photo_daecheon.jpg"
 logo                     : "/assets/favicon_ico/favicon-32x32.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # "disqus"
+  provider               : "disqus"
   disqus:
-    shortname            : # "nam8399-github-io"
+    shortname            : "nam8399-github-io"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -287,7 +287,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-      comments: false
+      comments: true
       share: true
       related: true
       sidebar_main: true
