@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "모바일앱 개발일기 #14 Java 문자열 비교하기"
+title:  "모바일앱 개발일기 #14 안드로이드 Java 문자열 비교하기"
 categories: Android
 ---
 
