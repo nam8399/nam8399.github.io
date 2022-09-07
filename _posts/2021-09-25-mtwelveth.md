@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "모바일앱 개발일기 #12 Firebase 데이터 가져오기"
+title:  "모바일앱 개발일기 #12 안드로이드 Firebase 데이터 가져오기"
 categories: Android
 ---
 
