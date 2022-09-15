@@ -19,6 +19,7 @@ categories: Android
 <br/><br/>
 ### XML을 벗어난 UI 개발
 
+
 ---
 
 먼저 기존 안드로이드 UI의 특징을 살펴보자.
