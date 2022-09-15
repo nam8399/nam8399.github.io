@@ -4,6 +4,8 @@ title:  "모바일앱 개발일기 #19 안드로이드 Kotlin Companion Object�
 categories: Android
 ---
 
+자바에 static 변수(필드), 메서드가 존재하듯 코틀린에서도 정적 변수와 함수가 존재한다. 그러나 코틀린의 문법 특성 상 클래스 안에 이것들을 클래스 안에 둘 수는 없고, 코틀린에는 static이라는 키워드가 존재하지 않는다. 그럼 어떻게 사용할까? 이 때를 위해 존재하는 것이 companion object라는 것이다.
+
 오늘은 Kotlin의 Companion Object에 대해서 알아볼 것이다.
 
 먼저 Companion Object에 대해 알아보기 전에 Java의 상수 코드를 먼저 봐보자.
