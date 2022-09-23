@@ -54,7 +54,9 @@ Object는 위와 같은 형태로 선언할 수 있고 다음과 같은 특징�
 
 ---
 
-앞서 한번 따로 정리했었던 Companion Object이다. Companion object 설명 : https://nam8399.github.io/android/mnineteenth/
+앞서 한번 따로 정리했었던 Companion Object이다. 
+
+[Companion object 설명]([http://www.google.co.kr](https://nam8399.github.io/android/mnineteenth/)).
 
 Companion object는 클래스 내부의 객체 선언을 위한 object 키워드다. 한 마디로 클래스 내부에서 싱글톤 패턴을 구현하기 위해 사용한다.
 
