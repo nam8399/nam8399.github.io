@@ -108,7 +108,6 @@ Object declaration이 선언된 클래스는 해당 클래스가 사용될 때 �
 - companion object 초기화 시점 : 해당 클래스가 로드될 때 initialized 된다. 실제로 해당 클래스 (CompanionObjectTest)를 생성하면 companion object 내부 init 블럭이 호출됨을 확인.
  
 
-
 <br/><br/>
 
 
