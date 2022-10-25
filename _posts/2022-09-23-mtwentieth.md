@@ -92,7 +92,6 @@ companion object에는 다음과 같은 특징이 있다.
 
 ### Object declaration와 Companion Object 차이
 
-
 ---
 
 두 선언 방식의 차이점은 앞서 개념만 봐도 알 수 있듯이 Object declaration은 클래스 전체가 하나의 싱글톤 객체로 선언되지만, companion object는 클래스 내에 일부분이 싱글톤 객체로 선언된다. 
