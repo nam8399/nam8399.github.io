@@ -103,9 +103,9 @@ analytics:
 author:
   name             : "Nam Junsik"
   avatar           : "/assets/images/photo_daecheon.jpg"
-  bio              : "안녕하세요! 사람들에게 도움이 되는 앱을 만들고자 끊임없이 성장하는 1년차 안드로이드 개발자입니다."
-  location         : "Songpa-gu, Seoul"
-  email            :
+  bio              : "안녕하세요! 끊임없이 도전하며 성장하는 안드로이드 앱 개발을 좋아하는 새내기 개발자입니다."
+  location         : "Seongdong-gu, Seoul"
+  email            : 
   links:
     - label: "개발 앱 - HandRecipe"
       icon: "fas fa-fw fa-link"
