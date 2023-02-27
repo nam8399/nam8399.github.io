@@ -1,7 +1,7 @@
 ---
 layout: single
-title:  "[Android] 안드로이드 Kotlin Companion Object란?"
-categories: Android
+title:  "[Kotlin] Kotlin Companion Object란?"
+categories: Kotlin
 ---
 
 자바에 static 변수(필드), 메서드가 존재하듯 코틀린에서도 정적 변수와 함수가 존재한다. 그러나 코틀린의 문법 특성 상 클래스 안에 이것들을 클래스 안에 둘 수는 없고, 코틀린에는 static이라는 키워드가 존재하지 않는다. 
