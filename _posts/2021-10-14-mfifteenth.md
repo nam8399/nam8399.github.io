@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "모바일앱 개발일기 #15 안드로이드 Fragment에서 현재 위치(위도, 경도) 가져오기"
+title:  "[Android] 안드로이드 Fragment에서 현재 위치(위도, 경도) 가져오기"
 categories: Android
 ---
 
