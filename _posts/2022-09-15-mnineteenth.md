@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "모바일앱 개발일기 #19 안드로이드 Kotlin Companion Object란?"
+title:  "[Android] 안드로이드 Kotlin Companion Object란?"
 categories: Android
 ---
 
