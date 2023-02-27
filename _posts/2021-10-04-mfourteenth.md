@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Java 일기 #1 Java 정규표현식"
+title:  "[Java] Java 정규표현식"
 categories: Java
 ---
 
