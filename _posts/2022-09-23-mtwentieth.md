@@ -1,7 +1,7 @@
 ---
 layout: single
-title:  "모바일앱 개발일기 #20 안드로이드 Kotlin Object와 Companion Object 차이"
-categories: Android
+title:  "[Kotlin] 코틀린 Object와 Companion Object 차이"
+categories: Kotlin
 ---
 
 우리는 Kotlin에서 Java의 static과 같은 정적 변수 및 메서드를 사용하기 위해 보통 object나 Companion object를 사용한다. 
