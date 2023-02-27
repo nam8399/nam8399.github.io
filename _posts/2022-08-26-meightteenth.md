@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "모바일앱 개발일기 #18 안드로이드 Compose란? Compose의 필요성"
+title:  "[Android] 안드로이드 Compose란? Compose의 필요성"
 categories: Android
 ---
 
