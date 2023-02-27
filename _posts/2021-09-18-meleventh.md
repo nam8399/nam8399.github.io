@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "모바일앱 개발일기 #11 안드로이드 CountDownTimer 사용해서 버튼 활성화하기"
+title:  "[Android] 안드로이드 CountDownTimer 사용해서 버튼 활성화하기"
 categories: Android
 ---
 
