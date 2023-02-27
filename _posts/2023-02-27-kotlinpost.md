@@ -105,6 +105,49 @@ null 값 구분 이유 : 널값의 허용 여부를 컴파일 단계에서 검�
 변수에서 사용할 수 있도록 코틀린이 제공하는 기본 자료형은 자바와의 호환을 위해 **자바와 거의 동일**하다.
 
 
+##### 정수, 실수형
+
+```kotlin
+fun main() {
+    var intValue:Int = 1234
+    var longValue:Long = 1234L //L을 붙여 더 큰 메모리를 사용하는 정수임을 표시
+    var intValueByHex:Int = 0x1af //16진수
+    var intValueByBin:Int = 0b //2진수 (binary 약자)
+    //코틀린은 8진수 표기는 지원하지 않는다.
+    
+    var doubleValue:Double = 123.5 //실수는 소수점을 포함해 숫자를 쓰거나
+    var doubleValueWithExp:Double = 123.5e10 //필요시 지수 표기법을 추가한다.
+    var floatValue:Float = 123.5f //Float는 f를 붙인다.
+}
+```
+
+코틀린은 내부적으로 문자열을 UTF-16 BE 방식을 사용한다. 따라서 글자 하나하나가 2byte의 메모리 공간을 사용한다.
+
+##### 문자, 문자열
+
+```kotlin
+fun main() {
+    var charValue:Char = 'a'
+    var koreanCharValue:Char = '가'
+    var stringValue = "one line string test"
+    var multiLineStringValue = """multiline
+    string
+    test"""
+}
+```
 
 
+##### Bolean
+
+```kotlin
+fun main() {
+    var booleanValue:Boolean = true
+}
+```
+
+<br/><br/>
+### 형 변환
+
+
+---
 
