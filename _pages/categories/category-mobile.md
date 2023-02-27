@@ -1,5 +1,5 @@
 ---
-title: "모바일앱 개발일기"
+title: "안드로이드 공부"
 layout: archive
 permalink: /categories/mobile
 author_profile: true
