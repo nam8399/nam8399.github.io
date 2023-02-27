@@ -1,7 +1,7 @@
 ---
 layout: single
-title:  "[Android] 안드로이드 Java 문자열 비교하기"
-categories: Android
+title:  "[Java] Java 문자열 비교하기"
+categories: Java
 ---
 
 오늘 날씨 API를 받아와서 날씨 상황마다 사진이 다르게 표시되는 작업을 하고있었는데 문자열을 비교해야 할 일이 생겼다.
