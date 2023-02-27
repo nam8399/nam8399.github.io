@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[Java] Java 정규표현식"
+title:  "[Java] 자바 정규표현식"
 categories: Java
 ---
 
