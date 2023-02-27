@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "모바일앱 개발일기 #16 안드로이드 Content Provider"
+title:  "[Android] 안드로이드 Content Provider"
 categories: Android
 ---
 
