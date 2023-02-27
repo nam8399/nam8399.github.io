@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[Java] Java 문자열 비교하기"
+title:  "[Java] 자바 문자열 비교하기"
 categories: Java
 ---
 
