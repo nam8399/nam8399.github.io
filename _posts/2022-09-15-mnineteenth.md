@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[Kotlin] Kotlin Companion Object란?"
+title:  "[Kotlin] 코틀린 Companion Object란?"
 categories: Kotlin
 ---
 
