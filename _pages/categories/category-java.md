@@ -1,5 +1,5 @@
 ---
-title: "Java 일기"
+title: "Java 공부"
 layout: archive
 permalink: /categories/java
 author_profile: true
