@@ -83,17 +83,17 @@ LiveData를 상속하여 자신만의 LiveData클래스를 구현할 수 있고 
 
 ---
 
-1. Generic을 사용해 관찰하고자 하는 데이터의 타입(Type)을 갖는 LiveData 인스턴스를 생성한다.
+Generic을 사용해 관찰하고자 하는 데이터의 타입(Type)을 갖는 LiveData 인스턴스를 생성한다.
 
-2. LiveData 클래스의 observe() 메소드를 사용해 Observer 객체를 LiveData 객체에 "결합" 한다. 이때 observe() 메소드는 LifecycleOwner 객체를 필요로 하며 보통은 Activity를 전달한다.
+LiveData 클래스의 observe() 메소드를 사용해 Observer 객체를 LiveData 객체에 "결합" 한다. 이때 observe() 메소드는 LifecycleOwner 객체를 필요로 하며 보통은 Activity를 전달한다.
 
 LiveData에 저장된 데이터에 어떠한 변화가 일어난 경우 결합된 LifecycleOwner에 의해서 상태가 active(활성)인 한 모든 데이터에 대해 Trigger가 발생한다.
 
-3. Observer 객체를 생성한다. 생성시 LiveData가 들고있는 데이터가 변화가 일어났을 때 수행해야 할 로직이 들어있는 onChanged() 메서드를 정의해야 한다.
+Observer 객체를 생성한다. 생성시 LiveData가 들고있는 데이터가 변화가 일어났을 때 수행해야 할 로직이 들어있는 onChanged() 메서드를 정의해야 한다.
 
 보통은 액티비티나 프래그먼트 같은 UI Controller 내에서 해당 메서드를 생성한다.
 
-4. observeForever(Observer)를 통해 LifeCycleOwner 없이 Observer를 생성하여 등록할 순 있지만, 이 경우에는 Observer는 항상 active(활성) 상태이므로 데이터 변화를 항상 전달 받는다. 단, removeObserver(Observer) 메소드를 통해 Observer를 제거 할 수 있다.
+observeForever(Observer)를 통해 LifeCycleOwner 없이 Observer를 생성하여 등록할 순 있지만, 이 경우에는 Observer는 항상 active(활성) 상태이므로 데이터 변화를 항상 전달 받는다. 단, removeObserver(Observer) 메소드를 통해 Observer를 제거 할 수 있다.
 
 
 <br/><br/>
