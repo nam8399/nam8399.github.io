@@ -111,7 +111,7 @@ Room을 사용하여 사용구 코드를 피하고 SQLite 테이블 데이터를
 
 Room은 SQLite 문의 컴파일 시간 확인을 제공하며 RxJavam, Flowable, LiveData, Observable을 반환할 수 있다.
 
-![Room Database](./././assets/images/roomdb.PNG)
+![Room Database](../assets/images/roomdb.PNG)
 
 ##### Room의 구성요소
 
