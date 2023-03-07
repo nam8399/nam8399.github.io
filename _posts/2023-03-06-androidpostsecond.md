@@ -11,7 +11,6 @@ AAC에 대해서 이해하면서 앱개발에 이 라이브러리를 적용하�
 
 # AAC(Android Architecture Components)란?
 
-
 ---
 
 AAC(Android Architecture Components)는 테스트와 유지보수가 쉬운 앱을 디자인할 수 있도록 돕는 라이브러리의 모음이다.
