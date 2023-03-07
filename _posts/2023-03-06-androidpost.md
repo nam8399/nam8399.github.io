@@ -8,7 +8,7 @@ categories: Android
 
 AAC에 대해서 이해하면서 앱개발에 이 라이브러리를 적용하고 안하고는 정말 앱의 효율성과 유지보수성 등에 아주 큰 영향을 미칠정도로 중요하다고 볼 수 있다.
 
-### AAC(Android Architecture Components)란?
+# AAC(Android Architecture Components)란?
 
 
 ---
@@ -36,20 +36,20 @@ AAC(Android Architecture Components)는 테스트와 유지보수가 쉬운 앱�
 
 
 <br/><br/>
-### Lifecycles
+# Lifecycles
 
 
 ---
 
 Lifecycles는 크게 2가지로 구성되어 있고 라이브러리 이름 답게 생명주기의 모니터링을 돕는다.
 
-##### Lifecycle Owner
+### Lifecycle Owner
 
 바로 이전 포스팅에서 다루었던 LiveData를 사용할 때 생명주기를 모니터링 하기 위해 호출했던 Lifecycle 객체이다.
 
 Activity,Fragment에서 생명주기를 분리하여 Lifecycle 객체에 담고 Lifecycle 객체를 통해 다른 곳에서 해당 화면의 생명주기를 모니터링 할 수 있는데 자신의 생명주기를 담은 Lifecycle 객체가 Lifecycle Owner이다.
 
-##### Lifecycle Observer
+### Lifecycle Observer
 
 생명주기를 Wrapping한 Lifecycle Owner 객체를 통해 화면 밖에서도 모니터링이 가능하지만, 생명주기에 따른 동작을 계속 화면에서 정의하기는 힘들다.
 
@@ -58,7 +58,7 @@ Activity,Fragment에서 생명주기를 분리하여 Lifecycle 객체에 담고 
 Lifecycle Observer를 구현한 클래스는 onResume()등의 생명주기 메소드를 정의할 수 있는데 이 메소드들은 등록한 Lifecycle Owner가 해당 생명주기 상태가 되면 자동으로 수행되면서 객체가 화면과 동일한 생명주기를 가진 것처럼 행동한다.
 
 <br/><br/>
-### LiveData
+# LiveData
 
 
 ---
@@ -88,7 +88,7 @@ LiveData는 다음과 같은 장점을 가진다.
 [안드로이드 LiveData 기본 사용법](https://nam8399.github.io/android/androidpost/ "LiveData")
 
 <br/><br/>
-### ViewModel
+# ViewModel
 
 
 ---
@@ -101,7 +101,7 @@ AAC ViewModel이 데이터의 보존이 가능한 이유로는 ViewModel이 Acti
 
 <br/><br/>
 
-### Room
+# Room
 
 ---
 
@@ -113,7 +113,7 @@ Room은 SQLite 문의 컴파일 시간 확인을 제공하며 RxJavam, Flowable,
 
 ![image](https://user-images.githubusercontent.com/69960282/223287523-d42067fa-9c4a-48cf-922f-69d023069d0d.png)
 
-##### Room의 구성요소
+### Room의 구성요소
 
 데이터베이스 : 데이터베이스는 앱에 저장되어 있는 로컬 데이터에 대한 액세스 포인트를 제공해주는 역할
 
@@ -123,7 +123,7 @@ Entity : 데이터베이스 내에 존재하는 테이블을 가리킵니다.
 
 <br/><br/>
 
-### Paging
+# Paging
 
 ---
 
@@ -134,7 +134,7 @@ Entity : 데이터베이스 내에 존재하는 테이블을 가리킵니다.
 
 <br/><br/>
 
-### Databinding
+# Databinding
 
 ---
 
@@ -146,7 +146,7 @@ Activity에서 따로 View들을 정의해서 사용하지 않아도 되고 Data
 
 <br/><br/>
 
-### Navigation
+# Navigation
 
 ---
 
@@ -157,7 +157,7 @@ Activity에서 따로 View들을 정의해서 사용하지 않아도 되고 Data
 
 <br/><br/>
 
-### WorkManager
+# WorkManager
 
 ---
 
@@ -167,7 +167,7 @@ WorkManager는 지속적인 작업에 권장되는 솔루션이며 앱이 다시
 
 
 <br/><br/>
-### 마무리
+# 마무리
 
 
 ---
