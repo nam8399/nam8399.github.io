@@ -2,6 +2,7 @@
 layout: single
 title:  "[Android] 안드로이드 AAC(Android Architecture Components)란?"
 categories: Android
+published: true
 ---
 
 오늘은 안드로이드 Jetpack의 섹션 중 하나로 테스트와 유지관리가 쉬운 앱을 디자인하도록 돕는 라이브러리인 AAC(Android Architecure Components)에 대해서 알아볼 것이다.
