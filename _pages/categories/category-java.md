@@ -1,5 +1,5 @@
 ---
-title: "Java 공부"
+title: "자바 공부"
 layout: archive
 permalink: /categories/java
 author_profile: true
