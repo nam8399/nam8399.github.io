@@ -2,6 +2,7 @@
 layout: single
 title:  "[Android] 안드로이드 LiveData 기본 사용법"
 categories: Android
+published: true
 ---
 
 오늘은 안드로이드 JetPack 라이브러리 중 하나인 LiveData에 대해서 작성해보았다.
