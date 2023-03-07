@@ -8,7 +8,7 @@ categories: Android
 
 장점도 굉장히 많고 다른 라이브러리(DataBinding, ViewModel 등)들과 함께 사용할 경우 훨씬 더 유용한 LiveData의 개념과 사용법에 대해서 알아보자
 
-### LiveData란?
+# LiveData란?
 
 
 ---
@@ -26,7 +26,7 @@ Activity, Fragment, Service 등과 같은 안드로이드 컴포넌트의 생명
 
 
 <br/><br/>
-### LiveData가 생명주기를 인식하는 법
+# LiveData가 생명주기를 인식하는 법
 
 
 ---
@@ -41,30 +41,30 @@ LifeCycleOwner는 메서드가 getLifeCycle() 뿐인 단일 메서드 인터페�
 
 
 <br/><br/>
-### LiveData의 장점
+# LiveData의 장점
 
 
 ---
 
-##### 1. UI 데이터 상태의 일치 보장
+### 1. UI 데이터 상태의 일치 보장
 
 앱 데이터 및 라이프 사이클이 변경될 때 마다 observer을 통해 데이터를 변경할 수 있다.
 
-##### 2. 메모리 누출 없음
+### 2. 메모리 누출 없음
  
 연결된 수명 주기가 끝나면 자동으로 삭제된다.
 
-##### 3. 중지된 활동으로 인한 비정상 종료 없음
+### 3. 중지된 활동으로 인한 비정상 종료 없음
 
 관찰자의 수명 주기가 비활성화 상태이면 관찰자는 어떤 Live Data 이벤트도 받지 않는다.
 
-##### 4. 수명주기를 수동으로 처리하지 않음
+### 4. 수명주기를 수동으로 처리하지 않음
 
 수명 주기의 변경을 자동으로 인식함으로 수동으로 처리하지 않는다.
 
 그러므로 UI 컴포넌트는 그저 관련 있는 데이터를 **관찰**하기만 하면 된다.
 
-##### 5. 최신 데이터 유지
+### 5. 최신 데이터 유지
 
 수명 주기가 비활성화 일 경우 다시 활성화가 될 때 새로운 데이터를 받는다.
 
@@ -73,12 +73,12 @@ LifeCycleOwner는 메서드가 getLifeCycle() 뿐인 단일 메서드 인터페�
 -> 예전과 같이 데이터를 유지하기 위해 SharedPreference를 사용하지 않아도 됨
 
 
-##### 6. 자원 공유 가능
+### 6. 자원 공유 가능
 
 LiveData를 상속하여 자신만의 LiveData클래스를 구현할 수 있고 싱글톤 패턴을 이용하여 시스템 서비스를 둘러싸면(Wrap) 앱 어디에서나 자원을 공유 할 수 있다.
  
 <br/><br/>
-### LiveData 사용시 주의할 점
+# LiveData 사용시 주의할 점
 
 
 ---
@@ -98,7 +98,7 @@ observeForever(Observer)를 통해 LifeCycleOwner 없이 Observer를 생성하�
 
 <br/><br/>
 
-### LiveData 기본 사용법
+# LiveData 기본 사용법
 
 ---
 
@@ -206,7 +206,7 @@ class MainActivity : AppCompatActivity() {
 
 
 <br/><br/>
-### 마무리
+# 마무리
 
 
 ---
