@@ -10,7 +10,6 @@ categories: Android
 
 # LiveData란?
 
-
 ---
 
 LiveData는 데이터의 변경을 관찰할 수 있는 Data Holder 클래스이다.
