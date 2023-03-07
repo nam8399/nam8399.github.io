@@ -239,7 +239,7 @@ class MainActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         binding.activity = this
         binding.btnChange.setOnClickListener {
-            text = "TEST22"
+            text = "TEST2"
             binding.invalidateAll()
         }
     }
