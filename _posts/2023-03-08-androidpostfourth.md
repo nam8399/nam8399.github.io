@@ -72,17 +72,27 @@ android {
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@id/btn_change"
+            app:layout_constraintBottom_toTopOf="@id/btn_change1"
             app:layout_constraintVertical_chainStyle="packed"/>
 
         <Button
-            android:id="@+id/btn_change"
+            android:id="@+id/btn_change1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Change Text"
+            android:text="Change Text1"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text_view"
+            app:layout_constraintBottom_toTopOf="@id/btn_change2"/>
+      
+        <Button
+            android:id="@+id/btn_change2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Text2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_change1"
             app:layout_constraintBottom_toBottomOf="parent"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
