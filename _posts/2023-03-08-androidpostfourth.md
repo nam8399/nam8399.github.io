@@ -20,12 +20,12 @@ LiveData와 DataBinding이 아직 뭔지 잘 모르겠다면 아래 포스팅을
 [안드로이드 DataBinding 기본 사용법](https://nam8399.github.io/android/androidpostthird)
 
 
-## LiveData와 DataBinding을 함께 사용하는 방법
+# LiveData와 DataBinding을 함께 사용하는 방법
 
 ---
 
 
-### app 수준의 Build.gradle 파일 수정
+## app 수준의 Build.gradle 파일 수정
 
 ```gradle
 android {
@@ -42,7 +42,7 @@ android {
 
 
 
-### DataBinding을 사용 할 xml 파일 수정
+## DataBinding을 사용 할 xml 파일 수정
 
 **activity_main.xml**
 
@@ -100,7 +100,7 @@ Textview에는 activity의 liveText를 데이터바인딩 해준다.
 
 
 
-### Activity에서 LiveData 변경
+## Activity에서 LiveData 변경
 
 
 **MainActivity.kt**
