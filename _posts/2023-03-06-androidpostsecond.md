@@ -85,7 +85,7 @@ LiveData는 다음과 같은 장점을 가진다.
 
 자세한 사항은 이전 포스팅을 참고하기 바란다.
 
-[안드로이드 LiveData 기본 사용법](https://nam8399.github.io/android/androidpost/ "LiveData")
+[안드로이드 LiveData 기본 사용법](https://nam8399.github.io/android/androidpostfirst)
 
 <br/><br/>
 # ViewModel
