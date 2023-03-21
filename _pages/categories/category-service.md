@@ -10,5 +10,5 @@ toc_label: "MYSELF"
 ---
 
 
-{% assign posts = site.categories.Android %}
+{% assign posts = site.categories.Service %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
