@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[Android] 코틀린 Media Player 재생, 일시정지, 정지"
+title:  "[Android] 안드로이드 Media Player 재생, 일시정지, 정지 - 코틀린"
 categories: Android
 published: true
 ---
