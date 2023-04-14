@@ -30,6 +30,9 @@ Continuous Integration/Continuous Delivery(or Deployment)의 약자로 지속적
 
 ### CI란?
 
+---
+
+
 CI(Continuous Integration)를 간단히 요약하자면 빌드 및 테스트 자동화 과정이라고 볼 수 있다.
 
 CI는 개발자를 위한 자동화 프로세스인 지속적인 통합을 의미한다.
@@ -45,6 +48,9 @@ CI의 실행은 소스 및 버전 관리 시스템에 대한 변경 사항을 �
 CI는 그 자체로 유익하지만 CI/CD 파이프라인을 구현하기 위한 첫 번째 단계이기도 하다.
 
 ### CD란?
+
+---
+
 
 CD를 간단히 요약하자면 배포 자동화 과정이라고 볼 수 있다.
 
