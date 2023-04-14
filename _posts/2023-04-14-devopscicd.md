@@ -64,7 +64,7 @@ CD는 지속적인 서비스 제공(Continuous Delivery) 또는 지속적인 배
 
 지속적인 배포는 파이프라인의 다음 단계를 자동화함으로 지속적인 제공이 가진 장점을 활용한다.
 
-[사진]
+![cicd](https://user-images.githubusercontent.com/69960282/231944497-c3b26ebe-864c-4916-9daf-3e2bcfc42fbd.png)
 
 ### CI/CD 종류
 
