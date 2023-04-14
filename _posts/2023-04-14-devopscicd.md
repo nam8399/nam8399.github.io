@@ -74,6 +74,8 @@ CD는 지속적인 서비스 제공(Continuous Delivery) 또는 지속적인 배
 
 ### CI/CD 종류
 
+---
+
 * Jenkins
 
 * CircleCI
