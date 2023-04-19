@@ -52,6 +52,8 @@ Fragment안에서 ViewPager와 TabLayout을 함께 사용하고 싶은데 대부
 ```
 
 
+<br/><br/>
+
 ## Adapter 추가
 
 ***DetailPagerAdapter***
@@ -85,10 +87,13 @@ class DetailPagerAdapter(manager: FragmentManager): FragmentPagerAdapter(manager
 
 
 
+<br/><br/>
+
 ## 화면에 보여줄 Fragment 생성
 
 화면에 보여줄 임의의 Fragment를 생성해준다.
 
+<br/><br/>
 
 ## 부모 Fragment 클래스에 바인드
 
