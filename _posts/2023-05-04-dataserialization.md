@@ -23,7 +23,6 @@ published: true
 
 **반대로 디스크에 저장한 데이터를 읽거나, 네트워크 통신으로 받은 데이터를 메모리에 쓸 수 있도록 다시 변환하는 것** 이다.
 
-
 위는 간단하게 요약한 단어이기에 해당 단어만 봤을 때 네트워크 통신을 도와주는 용도정도라고만 짐작이 간다.
 
 그렇다면 한번 자세하게 알아보도록 해보자
@@ -42,7 +41,6 @@ published: true
 **1. 값 형식 데이터(Value Type)**
 
 * 우리가 흔히 선언해서 사용하는 int, float, char 등의 값 형식 데이터들은 스택에 메모리가 쌓이고 직접 접근이 가능하다.
-
 
 **2. 참조 형식 데이터(Reference Type)**
 
@@ -79,9 +77,7 @@ transient가 붙은 인스턴스 변수의 값은 그 타입의 기본값으로 
 
 이런 상황에서 강아지의 특성을 가진 객체를 생성하여 직렬화한 후 통화 상대방에게 보내게 되면 굉장히 간단해진다.
 
-
 { "name":"Rex", "age":5, "favourite_food": pedigree_choice_cuts, "favourite_game": fetch_ball, "favourite_hobby": wagging_tail }
-
 
 예시 참고 : https://stackoverflow.com/questions/633402/what-is-serialization
 
