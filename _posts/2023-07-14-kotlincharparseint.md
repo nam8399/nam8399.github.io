@@ -31,9 +31,9 @@ published: true
 
 컴파일러를 통해 로그를 찍어본 뒤에야 알 수 있었다.
 
-``kotlin
+```kotlin
 "1".toInt()
-``
+```
 
 위 코드를 실행하게 되면 **Int형식의 1이 아닌 49**가 반환된다.
 
@@ -51,9 +51,9 @@ published: true
 바로 **Character.getNumericValue** 함수를 사용하면 된다.
 
 
-``kotlin
+```kotlin
 Character.getNumericValue("1") // 1
-``
+```
 
 위 코드처럼 Character.getNumericValue(Char) 함수를 사용하게 되면 우리가 원하는 결과값을 얻을 수 있다.
 
