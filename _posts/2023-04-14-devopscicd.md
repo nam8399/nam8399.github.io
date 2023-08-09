@@ -19,7 +19,7 @@ published: true
 
 Continuous Integration/Continuous Delivery(or Deployment)의 약자로 지속적인 통합, 지속적인 서비스를 제공하는 방법이다.
 
-앞서 맗했듯이 개발 및 운영팀에서 새로운 기능 추가, 구현 등으로 통합 지옥(integration hell)이라는 문제가 발생하게 된다.
+앞서 말했듯이 개발 및 운영팀에서 새로운 기능 추가, 구현 등으로 통합 지옥(integration hell)이라는 문제가 발생하게 된다.
 
 기존의 것과 새로운 것을 다시 통합하여 아무런 문제없이 정상적인 앱을 완성해내야하지만 마음처럼 쉽게 되지 않는 경우가 많다.
 
